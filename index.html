@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+    <link rel="icon" href="imgs\icon.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    </head>
+
+    <body>
+        <!---- My code Starts here-->
+        <p id="rustedmind"> Created by RustedMind</p>
+        <p class="icons">.js Calculator</p>
+        <div id="main">
+            <div id="monitor">
+                <p id="num">0</p>
+            </div>
+            <div class="row">
+                <div class="buttons column" id="ac" onclick="allClear()">AC</div>
+                <div class="buttons column" id="equal" onclick="equal()">=</div>
+                <div class="buttons column" id="backSpace" onclick="backSpace()">&#x2190</div>
+            </div>
+            <div class="row">
+                <div class="buttons column" onclick="typeNum(1)">1</div>
+                <div class="buttons column" onclick="typeNum(2)">2</div>
+                <div class="buttons column" onclick="typeNum(3)">3</div>
+                <div class="buttons column" id="devide">&#xF7</div>
+            </div>
+            
+            <div class="row">
+                <div class="buttons column" onclick="typeNum(4)">4</div>
+                <div class="buttons column" onclick="typeNum(5)">5</div>
+                <div class="buttons column" onclick="typeNum(6)">6</div>
+                <div class="buttons column" id="multiply">&#215</div>
+            </div>
+            <div class="row">
+                <div class="buttons column" onclick="typeNum(7)">7</div>
+                <div class="buttons column" onclick="typeNum(8)">8</div>
+                <div class="buttons column" onclick="typeNum(9)">9</div>
+                <div class="buttons column" id="plus">+</div>
+            </div>
+            <div class="row">
+                <div class="buttons column" id="zero" onclick="typeNum(0)">0</div>
+                <div class="buttons column" onclick="typeDecimal()">.</div>
+                <div class="buttons column" id="minus">-</div>
+            </div>
+        </div>
+
+
+
+        <!---- My code Ends here-->
+    </body>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <link rel="icon" href="imgs\icon.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    </head>
+
+    <body>
+        <!---- My code Starts here-->
+        <div class="container">
+            <div id="monitor"class="monitor">
+                <p id="num">0</p>
+            </div>
+            <div class="line">
+                <div id="ac" class="twonum" onclick="allClear()">AC</div>
+                <div id="equal" class="num" onclick="equal()">=</div>
+                <div id="backSpace" class="num" onclick="backSpace()">C</div>
+            </div>
+            <div class="line">
+                <div class="num" onclick="typeNum(1)">1</div>
+                <div class="num" onclick="typeNum(2)">2</div>
+                <div class="num" onclick="typeNum(3)">3</div>
+                <div class="num" id="devide">&#xF7</div>
+            </div>
+            <div class="line">
+                <div class="num" onclick="typeNum(4)">4</div>
+                <div class="num" onclick="typeNum(5)">5</div>
+                <div class="num" onclick="typeNum(6)">6</div>
+                <div class="num" id="multiply">&#215</div>
+            </div>
+            <div class="line">
+                <div class="num" onclick="typeNum(7)">7</div>
+                <div class="num" onclick="typeNum(8)">8</div>
+                <div class="num" onclick="typeNum(9)">9</div>
+                <div class="num" id="plus">+</div>
+            </div>
+            <div class="line">
+                <div class="twonum" onclick="typeNum(0)">0</div>
+                <div class="num" onclick="typeDecimal()">.</div>
+                <div class="num" id="minus">-</div>
+            </div>
+        </div>
+        <!---- My code Ends here-->
+    </body>
+    <script src="script.js"></script>
+</html>

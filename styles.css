@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#main{
+    margin-left:calc(50% - 200px);
+    width: 400px;
+
+}
+#monitor{
+    height: 100px;
+    width: 99.5%;
+    background-color: white;
+    border: 1px solid rgb(0, 174, 180);
+    margin: 0px;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 5px 5px 0 0;
+    color: rgb(0, 118, 122);
+    word-break: break-all;
+}
+#monitor p{
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+    margin-right: 5px;
+}
+.buttons{
+    border: 1px solid rgb(0, 174, 180);
+    background-color: rgb(0, 118, 122);
+    padding-top: 15px;
+    height: 40px;
+    margin: 5px;
+    color: white;
+    width: 25%;
+    font-size: 25px;
+    cursor: pointer;
+}.buttons:hover{
+    transition: 200ms;
+    background-color: white;
+    color: rgb(0, 118, 122);
+}
+.row{
+    display: table;
+    table-layout: fixed;
+    width: 400px;
+}.column{
+    display: table-cell;
+}#zero{
+    width: 50%;
+    border-radius: 0 0 0 5px;
+}#ac{
+    padding-top: 3px;
+    width: 50%;
+}#minus{
+    border-radius: 0 0 5px 0;
+}.icons{
+    color: white;
+    background-color: rgb(0, 118, 122);
+    border-radius: 5px;
+    font-size: 30px;
+    width: 200px;
+    margin-left:calc(50% - 100px);
+    margin-top: 0;
+    margin-bottom: 1px;
+}#rustedmind{
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    background-color: rgb(0, 118, 122);
+    border-radius: 5px;
+    font-size: 18px;
+    width: 120px;
+    padding: 4px;
+}
